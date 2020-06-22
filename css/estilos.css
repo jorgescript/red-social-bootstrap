@@ -174,3 +174,108 @@ main .contenido-principal .publicar form .contenedor-botones button {
 main .contenido-principal .publicar form .contenedor-botones button:hover {
 	background-image: linear-gradient(to bottom, #1176b6, #1a87cd);
 }
+
+/* publicación */
+main .publicacion {
+	margin-bottom: 40px;
+
+}
+
+main .publicacion .foto a {
+	display: inline-block;
+	width: 60px;
+	height: 60px;
+	overflow: hidden;
+	border-radius: 100px;
+}
+
+main .publicacion .foto img {
+	width: 100%;
+}
+
+main .publicacion .nombre {
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	line-height: 16px;
+	display: inline-block;
+	margin-bottom: 10px;
+}
+
+main .publicacion .texto {
+	background-color: #ffffff;
+	color: #3d3c3c;
+	font-size: 14px;
+	padding: 15px;
+	margin-bottom: 15px;
+}
+
+main .publicacion .imagen {
+	padding: 15px;
+	background-color: #ffffff;
+	margin-bottom: 15px;
+}
+
+main .publicacion .post .caja-botones {
+	margin-bottom: 20px;
+}
+
+main .publicacion .post .caja-botones button {
+	background-color: #1176b6;
+	color: #ffffff;
+	cursor: pointer;
+	padding: 10px 20px;
+	display: inline-block;
+	font-size: 18px;
+	font-weight: 18px;
+	border-radius: 3px;
+	border: none;
+}
+
+main .publicacion .post .caja-botones button:hover {
+	background-color: #0d659d;
+}
+
+
+main .publicacion .post .caja-botones p {
+	margin-bottom: 0;
+	color: #1782c6;
+}
+
+/* comentario */
+main .publicacion .comentario {
+	margin-bottom: 20px;
+	padding: 20px;
+	border-bottom: 1px solid #cdcdcd;
+}
+
+main .publicacion .comentario .foto {
+	padding-left: 0;
+	margin-right: 15px;
+}
+
+main .publicacion .comentario .foto a {
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+}
+
+main .publicacion .comentario form textarea {
+	background-color: #ffffff;
+	border: 1px solid #cbcbcb;
+	color: #565656;
+	padding: 8px;
+	min-height: 40px;
+	max-height: 40px;
+	min-width: 100%;
+	max-width: 100%;
+	font-size: 14px;
+}
+
+main .publicacion .comentario .respuesta {
+	font-size: 14px;
+	margin-bottom: 10px;
+}
+
+main .publicacion .comentario .me-gusta {
+	font-size: 14px;
+}
