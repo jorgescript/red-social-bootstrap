@@ -56,11 +56,11 @@
         </nav>
       </div>
       <!-- Contenido principal -->
-      <div class="col-md-6 contenido-principal">
+      <div class="col contenido-principal">
         <!-- Añadir publicación -->
         <div class="publicar">
           <div class="row">
-            <div class="col-auto foto">
+            <div class="col-auto d-none d-sm-block  foto">
               <a href="#"><img src="img/persona2.jpg" alt="Persona 2"></a>
             </div>
             <div class="col">
@@ -84,7 +84,7 @@
         <div class="publicacion">
           <!-- publicacion -->
           <div class="row">
-            <div class="col-auto foto">
+            <div class="col-auto d-none d-sm-block  foto">
               <a href="#"><img src="img/persona5.jpg" alt="Persona 5"></a>
             </div>
             <div class="col">
@@ -102,11 +102,11 @@
           </div>
           <!-- comentarios -->
           <div class="row">
-            <div class="col-10 offset-2">
+            <div class="col-sm-10 offset-sm-2">
               <div class="comentarios">
                 <!-- añadir comentario -->
                 <div class="row no-gutters comentario">
-                  <div class="col-auto foto">
+                  <div class="col-auto d-none d-sm-block  foto">
                     <a href="#"><img src="img/persona2.jpg" alt="Persona 2"></a>
                   </div>
                   <div class="col">
@@ -115,10 +115,11 @@
                 </div>
                 <!-- comentario -->
                 <div class="row no-gutters comentario">
-                  <div class="col-auto foto">
+                  <div class="col-auto d-none d-sm-block  foto">
                     <a href="#"><img src="img/persona2.jpg" alt="Persona 2"></a>
                   </div>
                   <div class="col">
+                    <a href="#" class="nombre">Chuy Lorem, ipsum.</a>
                     <p class="respuesta">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas qui unde
                       consequuntur rem suscipit nam.</p>
                     <a href="#" class="me-gusta">Me gusta</a>
@@ -126,10 +127,11 @@
                 </div>
                 <!-- comentario -->
                 <div class="row no-gutters comentario">
-                  <div class="col-auto foto">
+                  <div class="col-auto d-none d-sm-block  foto">
                     <a href="#"><img src="img/persona5.jpg" alt="Persona 2"></a>
                   </div>
                   <div class="col">
+                    <a href="#" class="nombre">Andrea Lorem, ipsum.</a>
                     <p class="respuesta">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas qui unde
                       consequuntur rem suscipit nam.</p>
                     <a href="#" class="me-gusta">Me gusta</a>
@@ -140,7 +142,7 @@
           </div>
           <!-- publicacion -->
           <div class="row">
-            <div class="col-auto foto">
+            <div class="col-auto d-none d-sm-block  foto">
               <a href="#"><img src="img/persona1.jpg" alt="Persona 1"></a>
             </div>
             <div class="col">
@@ -158,11 +160,11 @@
           </div>
           <!-- comentarios -->
           <div class="row">
-            <div class="col-10 offset-2">
+            <div class="col-sm-10 offset-sm-2">
               <div class="comentarios">
                 <!-- añadir comentario -->
                 <div class="row no-gutters comentario">
-                  <div class="col-auto foto">
+                  <div class="col-auto d-none d-sm-block  foto">
                     <a href="#"><img src="img/persona2.jpg" alt="Persona 2"></a>
                   </div>
                   <div class="col">
@@ -171,10 +173,11 @@
                 </div>
                 <!-- comentario -->
                 <div class="row no-gutters comentario">
-                  <div class="col-auto foto">
+                  <div class="col-auto d-none d-sm-block foto">
                     <a href="#"><img src="img/persona2.jpg" alt="Persona 2"></a>
                   </div>
                   <div class="col">
+                    <a href="#" class="nombre">Chuy Lorem, ipsum.</a>
                     <p class="respuesta">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas qui unde
                       consequuntur rem suscipit nam.</p>
                     <a href="#" class="me-gusta">Me gusta</a>
@@ -182,10 +185,11 @@
                 </div>
                 <!-- comentario -->
                 <div class="row no-gutters comentario">
-                  <div class="col-auto foto">
+                  <div class="col-auto d-none d-sm-block  foto">
                     <a href="#"><img src="img/persona5.jpg" alt="Persona 2"></a>
                   </div>
                   <div class="col">
+                    <a href="#" class="nombre">Andrea Lorem, ipsum.</a>
                     <p class="respuesta">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas qui unde
                       consequuntur rem suscipit nam.</p>
                     <a href="#" class="me-gusta">Me gusta</a>
@@ -197,7 +201,20 @@
         </div>
       </div>
       <!-- Barra lateral derecha -->
-      <div class="col-md-3"></div>
+      <div class="col-3 d-none d-lg-block barra-lateral-publicidad">
+        <h3>Publicidad</h3>
+        <div class="ads">
+          <a href="#"><img src="img/ad1.jpg" alt="Anuncio 1" width="300"></a>
+          <a href="#"><img src="img/ad2.jpg" alt="Anuncio 2" width="300"></a>
+          <a href="#"><img src="img/ad3.jpg" alt="Anuncio 3" width="300"></a>
+        </div>
+        <footer>
+          <a href="#">Privacidad</a>
+          <a href="#">Condiciones</a>
+          <a href="#">Publicidad</a>
+          <p class="copyright">Red Social &copy; 2020</a>
+        </footer>
+      </div>
     </div>
   </main>
   <script src="js/jquery-3.5.1.slim.min.js"></script>
