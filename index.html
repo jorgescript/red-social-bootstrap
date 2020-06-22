@@ -13,7 +13,7 @@
 
 <body>
   <!-- header -->
-  <header>
+  <header class="sticky-top">
     <div class="container">
       <div class="row">
         <!-- logo -->
@@ -33,10 +33,11 @@
         </div>
         <!-- menu -->
         <nav class="col-sm-4 col-lg-2 d-flex order-1 order-sm-2 mb-2 mb-sm-0 justify-content-around ml-auto menu">
-          <a href=""><i class="icon-users"></i></a>
-          <a href=""><i class="icon-bell-alt"></i></a>
-          <a href=""><i class="icon-chat"></i></a>
-          <a href="" class="imagen"><img src="img/persona2.jpg" alt="Persona 2" width="22" height="22"></a>
+          <a href="#"><i class="icon-users"></i></a>
+          <a href="#"><i class="icon-bell-alt"></i></a>
+          <a href="#"><i class="icon-chat"></i></a>
+          <a href="#" class="imagen"><img src="img/persona2.jpg" alt="Persona 2" width="22" height="22"></a>
+          <a href="#" class="d-block d-md-none" id="btn-menu"><i class="icon-menu"></i></a>
         </nav>
       </div>
     </div>
@@ -44,7 +45,7 @@
   <main class="container">
     <div class="row">
       <!-- Barra lateral izquierda -->
-      <div class="col-md-3 barra-lateral-menu">
+      <div class="d-md-block col-md-3 barra-lateral-menu">
         <nav>
           <a href="#"><i class="icon-users"></i> Amigos</a>
           <a href="#"><i class="icon-mail"></i> Mensajes Privados</a>
@@ -55,6 +56,9 @@
           <a href="#"><i class="icon-book"></i> Libros</a>
         </nav>
       </div>
+      <!-- fondo menu mobile -->
+      <a href="#" class="d-md-none fondo-enlace" id="fondo-enlace">X</a>
+
       <!-- Contenido principal -->
       <div class="col contenido-principal">
         <!-- Añadir publicación -->

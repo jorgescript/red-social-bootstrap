@@ -1,16 +1,15 @@
-$(function(){
-	var boton = $('#btn-menu');
-	var fondo_enlace = $('#fondo-enlace');
+const boton = document.getElementById("btn-menu");
+const fondo_enlace = document.getElementById("fondo-enlace");
+const barraLateralMenu = document.querySelector(".barra-lateral-menu");
 
-	boton.on('click', function(e){
-		fondo_enlace.toggleClass('active');
-		$('#barra-lateral-izquierda').toggleClass('active');
-		e.preventDefault();
-	});
+boton.addEventListener("click", function (e) {
+  e.preventDefault();
+  fondo_enlace.classList.toggle("active");
+  barraLateralMenu.classList.toggle("active");
+});
 
-	fondo_enlace.on('click', function(e){
-		fondo_enlace.toggleClass('active');
-		$('#barra-lateral-izquierda').toggleClass('active');
-		e.preventDefault();
-	});
-}())
+fondo_enlace.addEventListener("click", function (e) {
+  e.preventDefault();
+  fondo_enlace.classList.toggle("active");
+  barraLateralMenu.classList.toggle("active");
+});
