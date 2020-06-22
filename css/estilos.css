@@ -1,0 +1,80 @@
+body {
+	background-color: #e9ebee;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+}
+
+a {
+	color: #1176b6;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+/* header */
+header {
+	background-color: #1176b6;
+	padding: 10px 0;
+}
+
+/* logo */
+header .logo img {
+	width: 22px;
+	height: 22px;
+}
+
+/* barra de busqueda */
+header .buscar form input,
+header .buscar form button {
+	width: 100%;
+	background-color: #ffffff;
+	border: none;
+	font-size: 12px;
+	padding: 0 10px;
+	height: 25px;
+	line-height: 25px;
+	font-family: inherit;
+	color: #6d6d6d;
+}
+
+header .buscar form input {
+	border-radius: 3px 0 0 3px;
+}
+
+header .buscar form button {
+	border-radius: 0 3px 3px 0;
+	cursor: pointer;
+	transition: background-color .2s;
+}
+
+header .buscar form button:hover {
+	background-color: #099efc;
+	color: #ffffff;
+}
+
+/* menu */
+header .menu {
+	padding: 0;
+}
+
+header .menu a {
+	color: rgba(255, 255, 255, .8);
+	text-decoration: none;
+	transition: color .1s;
+}
+
+header .menu a:hover {
+	color: #ffffff;
+}
+
+header .menu .imagen {
+	display: inline-block;
+	width: 22px;
+	height: 22px;
+	overflow: hidden;
+}
+
+header .menu .imagen img {
+	border-radius: 100px;
+}

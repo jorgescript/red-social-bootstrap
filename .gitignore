@@ -1,0 +1,9 @@
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
+Desktop.ini
+
+# Thumbnail cache files
+._*
+Thumbs.db

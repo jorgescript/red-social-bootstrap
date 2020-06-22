@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Basic template Bootstrap</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/fontello.css">
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+  <!-- header -->
+  <header>
+    <div class="container">
+      <div class="row">
+        <!-- logo -->
+        <div class="col-auto d-none d-md-block logo"><a href="#"><img src="img/logo.png" alt="Logo"></a></div>
+        <!-- barra de busqueda -->
+        <div class="col-sm-7 col-lg-6 order-2 order-sm-1 buscar mb-2 mb-sm-0">
+          <form action="">
+            <div class="row no-gutters">
+              <div class="col-10">
+                <input type="text" placeholder="Amigos lugares y cosas que te gustan">
+              </div>
+              <div class="col-2">
+                <button class=""><i class="icon-search"></i></button>
+              </div>
+            </div>
+          </form>
+        </div>
+        <!-- menu -->
+        <nav class="col-sm-4 col-lg-2 d-flex order-1 order-sm-2 mb-2 mb-sm-0 justify-content-around ml-auto menu">
+          <a href=""><i class="icon-users"></i></a>
+          <a href=""><i class="icon-bell-alt"></i></a>
+          <a href=""><i class="icon-chat"></i></a>
+          <a href="" class="imagen"><img src="img/persona2.jpg" alt="Persona 2" width="22" height="22"></a>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <script src="js/jquery-3.5.1.slim.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/menu.js"></script>
+</body>
+
+</html>
